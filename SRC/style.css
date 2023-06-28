@@ -1,0 +1,15 @@
+#notice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DFECFF;
+    width: 80%;
+    height: 60px;
+    margin: 15px auto;
+    font-size: 1.5em;
+    border-radius: 0px 25px;
+}
+
+#notice > div {
+    margin: 0px 20px;
+}
