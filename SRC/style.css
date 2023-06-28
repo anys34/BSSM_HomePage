@@ -13,3 +13,14 @@
 #notice > div {
     margin: 0px 20px;
 }
+
+.main_img {
+    text-align: center;
+}
+
+.main_img > img {
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 6px 6px #c3c3c3);
+}
