@@ -10,21 +10,23 @@
     outline: none;
 }
 
-.nav1 {
+#nav1 {
     display: flex;
     align-items: center;
+    margin: 5px 0px;
 }
 
-#nav1 {
+.nav1 {
     flex: auto;
 }
 
 .logo {
-    margin: 0px 120px;
+    margin: 0px 230px;
 }
 
 .search > img {
     height: 35px;
+    margin: 0px 10px;
 }
 
 a { text-decoration: none; color: black; }
@@ -32,3 +34,9 @@ a { text-decoration: none; color: black; }
     a:hover { text-decoration: none; }
     a:focus { text-decoration: none; }
     a:hover, a:active { text-decoration: none; }
+
+#nav2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
