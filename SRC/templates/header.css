@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search input {
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px black solid;
+    outline: none;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+}
+
+#nav1 {
+    flex: auto;
+}
+
+.logo {
+    margin: 0px 120px;
+}
+
+.search > img {
+    height: 35px;
+}
+
+a { text-decoration: none; color: black; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
