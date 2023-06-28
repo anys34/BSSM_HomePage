@@ -1,3 +1,8 @@
-.text {
+.footer_text {
     margin: 10px 30px;
+}
+
+.footer_contents {
+    color: blue;
+    margin-right: 50px;
 }
