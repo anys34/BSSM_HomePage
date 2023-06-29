@@ -38,5 +38,5 @@ a { text-decoration: none; color: black; }
 #nav2 {
     display: flex;
     justify-content: space-evenly;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
