@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="../SRC/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('ul.tabs li').click(function () {
+                var tab_id = $(this).attr('data-tab');
+
+                $('ul.tabs li').removeClass('current');
+                $('.tab-content').removeClass('current');
+
+                $(this).addClass('current');
+                $("#" + tab_id).addClass('current');
+            })
+
+        })
+    </script>
 </head>
 <body>
     <header>
@@ -23,9 +38,41 @@
             </div>
         </div>
 
-        <div>
+        <div class="article1">
             <div class="main_img">
                 <img src="../IMG/main.png" alt="">
+            </div>
+
+            <div class="container">
+                <ul class="tabs">
+                    <li class="tab-link" data-tab="tab-1"><b>공지사항</b></li>
+                    <li class="tab-link current" data-tab="tab-2"><b>홍보자료</b></li>
+                    <li class="tab-link" data-tab="tab-3"><b>가정통신문</b></li>
+                </ul>
+                
+                <div id="tab-1" class="tab-content">
+                    <div class="content-text">
+                        <p><span>교육제증명 발급 일시중단 안내</span></p><p class="date"><span>2023.05.19</span></p><br>
+                        <p><span>교섭 요구 노동조합 확정 공고문</span></p><p class="date"><span>2023.05.12</span></p><br>
+                        <p><span>교육공무직원 노동조합 단체교섭 요구사실 공고문</span></p><p class="date"><span>2023.05.08</span></p>
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-content current">
+                    <div class="content-text">
+                        <p><span>국제인공지능대전 참여(23.5.10)</span></p><p class="date"><span>2023.05.15</span></p><br>
+                        <p><span>(주)마이다스아이티 최종 합격</span></p><p class="date"><span>2023.04.11</span></p><br>
+                        <p><span>2023년 부산 지방 기능 경기 대회 입상</span></p><p class="date"><span>2023.04.06</span></p><br>
+                        <p><span>학교 홍보영상</span></p><p class="date"><span>2022.07.11</span></p>
+                    </div>
+                </div>
+                <div id="tab-3" class="tab-content">
+                    <div class="content-text">
+                        <p><span>2023학년도 독일 국제교류 프로그램 하계 집중...</span></p><p class="date"><span>2023.06.19</span></p><br>
+                        <p><span>2023년 학부모 대상 청소년 마약류 예방 심포지...</span></p><p class="date"><span>2023.06.14</span></p><br>
+                        <p><span>2023학년도 우수학생 글로벌 취업역량강화 프로...</span></p><p class="date"><span>2023.06.13</span></p><br>
+                        <p><span>2023- 6월호 자녀사랑 뉴스레터</span></p><p class="date"><span>2023.06.12</span></p>
+                    </div>
+                </div>
             </div>
         </div>
 
