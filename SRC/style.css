@@ -215,7 +215,29 @@ html, body {
     background: #FFC107;
   }
 
-.calender {
+.article2 {
     display: flex;
     justify-content: space-evenly;
+}
+
+.event_img {
+    height: 350px;
+}
+
+.event_text {
+    text-align: left;
+    font-size: 30px;
+}
+
+.school_event {
+    text-align: center;
+}
+
+.event_text2 {
+    font-size: 25px;
+    
+}
+
+.event_a, .event_a:any-link {
+    text-decoration: underline;
 }
