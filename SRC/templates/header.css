@@ -29,6 +29,10 @@
     margin: 0px 10px;
 }
 
+.search > img:hover {
+    cursor: pointer;
+}
+
 a { text-decoration: none; color: black; }
     a:visited { text-decoration: none; }
     a:hover { text-decoration: none; }

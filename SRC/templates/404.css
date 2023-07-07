@@ -1,0 +1,25 @@
+* {
+    background-color: rgb(255, 249, 242);
+}
+
+.main_404 {
+  text-align: center;
+  margin: 70px;
+}
+
+.not_found {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.not_found2 {
+    font-size: 30px;
+}
+
+.move_page {
+    text-align: center;
+} 
+
+.move_page:hover {
+    cursor: pointer;
+}
